@@ -1,0 +1,9 @@
+h1 {
+  margin: 0;
+}
+h3, h4 {
+  font-weight: 500;
+}
+h4 {
+  font-style: italic;
+}

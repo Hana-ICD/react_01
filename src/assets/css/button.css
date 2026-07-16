@@ -1,0 +1,21 @@
+/* button */
+.btn {
+  padding: 2px 10px;
+  background-color: var(--code-bg);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px var(--text-h);
+}
+.btn:disabled {
+  opacity: .5;
+}
+.btn[aria-pressed="true"] {
+  color: rgb(173, 50, 112);
+  text-decoration: underline;
+  text-decoration-line: 5px;
+  text-underline-position: 10px;
+}
+.btn-delete {
+  background-color: rgb(223, 102, 142);
+  color: #ffffff;
+}

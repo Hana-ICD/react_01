@@ -1,0 +1,15 @@
+.codeFrame {
+  position: relative;
+  width: max-content;
+
+  .btn_copy {
+    color: var(--color-white);
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+
+  .code_pre {
+    padding-right: 40px !important;
+  }
+}

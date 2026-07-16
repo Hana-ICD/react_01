@@ -1,0 +1,25 @@
+.menu {
+  :global(.is-open) {
+    &:not(:has(:global(.is-open))) > a {
+      color: var(--color-highlight);
+      background-color: var(--bg-highlight);
+    }
+    &:has(:global(.is-open)) > a {
+      span {
+        color: var(--color-highlight);
+      }
+    }
+  }
+  a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  a:hover {
+    background-color: var(--bg-highlight-hover);
+  }
+}
+.submenu {
+  :global(.is-open) > a {
+    background-color: var(--bg-highlight);
+  }
+}

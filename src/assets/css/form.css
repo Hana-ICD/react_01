@@ -1,0 +1,9 @@
+form input, .input {
+  border: 1px solid #333333;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.btn:focus, input:focus, input:focus-visible, h3:focus-visible, h3:focus {
+  outline: -webkit-focus-ring-color auto 1px;
+  outline: auto 1px;
+}

@@ -1,0 +1,18 @@
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  .nav_list {
+    text-align: center;
+
+    .nav_listItem {
+      display: inline-block;
+      & + .nav_listItem {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

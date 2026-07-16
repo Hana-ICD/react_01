@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #242f86;
+  --color-highlight: #800080;
+  --bg-highlight: #8000800f;
+  --bg-highlight-hover: rgb(89 75 89 / 6%);
+  --color-white: white;
+}
+.dark {
+  --color-primary: white;
+  --color-highlight: #e3d135;
+  --bg-highlight: rgb(172 173 162 / 54%);
+  --bg-highlight-hover: rgb(172 173 162 / 16%);
+}
+.clr-primary {
+  color: var(--color-primary);
+}
+
+#root {
+  width: 100%;
+}
+
+pre, code {
+  display: inline-block;
+}

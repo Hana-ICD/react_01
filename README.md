@@ -256,4 +256,3 @@ console.log(result);
 // Expected output: Array [1, 2, 2, 1]
 
 Checking 
-Checking 2
